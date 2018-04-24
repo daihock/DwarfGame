@@ -1,0 +1,86 @@
+.bground {
+    margin: 30px;
+    position: absolute;
+    background: url("92209572.png");
+    width:1000px;
+    height: 500px;
+}
+
+.player {
+    background: url(gnom_50px.png) no-repeat center;
+    z-index: 2;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+.wall {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #8ee4ff;
+}
+
+.empty {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+.step {
+
+    z-index: 1;
+    border: solid 1px;
+    position: absolute;
+    background: url(грунт_73.jpg) center;
+    -webkit-background-size:100%;
+    background-size:100%;
+    width: 50px;
+    height: 50px;
+}
+.goal {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+.finish {
+    z-index: 2;
+    background: url(diamond_PNG6694.png) no-repeat center;
+    background-size: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+.controls {
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    width: 200px;
+    height: auto;
+    background: #f8ceb5;
+    padding: 10px;
+}
+button {
+    margin: 2px;
+    width: 70px;
+    height: 20px;
+}
+.grats {
+    z-index: 20;
+    position: absolute;
+    height: 300px;
+    width: 700px;
+    top: 200px;
+    left: 200px;
+    background: url("803773_Dwarfs-Happy-Dopey-Diamond.jpg") no-repeat center;
+    background-size: contain;
+}
+.wrong {
+    z-index: 20;
+    position: absolute;
+    height: 300px;
+    width: 700px;
+    top: 200px;
+    left: 200px;
+    background: url("gnomevorchun.jpg") no-repeat center;
+    background-size: contain;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Game.css">
+    <title>My Game</title>
+
+</head>
+<body>
+<h1 style="font-family: Verdana; color: coral" align="center">ПОМОГИ ГНОМУ</h1>
+
+<div class="controls">
+    <p><label for="steps">Введи количество шагов</label><input type="number" id="steps" name="input" onchange="steps(value)"></p>
+    Выбери напрвление:
+    <p><button id="left" onclick="walk(id)" disabled>Влево</button>
+    <button id="right" onclick="walk(id)" disabled>Вправо</button></p>
+    <p> <button id="up" disabled>Вверх</button>
+    <button id="down" disabled>Вниз</button></p>
+</div>
+
+<div class="bground"></div>
+
+</body>
+<script src="GameDwarf.js"></script>
+</html>
